@@ -22,6 +22,7 @@ process.stdout.write("*");
  ***
 ****
 */
+
  let prompt = require('prompt-sync')(); 
  let number = Number(prompt("enter the number"));
  for(let i=1; i<=number; i++ ){
