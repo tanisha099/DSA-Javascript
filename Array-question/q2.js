@@ -18,8 +18,8 @@ while(i!=j){
     let temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
-    i++;
-    j--;
+    i++
+    j--
 }
 console.log(arr);
 */

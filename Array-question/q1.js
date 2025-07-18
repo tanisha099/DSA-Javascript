@@ -1,5 +1,11 @@
 // Array 
 /*
+arr.push(val) -> insert at last
+arr.pop() -> delete at last
+arr.unshift(val) -> insert at first
+arr.shift() -> delete at first
+*/
+/*
 //sum of array
 let arr = [10,20,30,40,500];
 let sum =0;
@@ -50,16 +56,5 @@ for(let i=2; i<arr.length; i++){
 console.log(Second);
 */
 
-// Reverse Array 
 
-// with extra element
-
-let arr = [90,10,30,60,70,80];
-let arr2 = new Array(arr.length);
-let j=0;
-for(let i=arr.length-1; i>=0; i--){
-    arr2[j] = arr[i];
-    j++;
-}
-console.log(arr2);
 

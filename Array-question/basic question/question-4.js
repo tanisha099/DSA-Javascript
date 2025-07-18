@@ -23,4 +23,27 @@ console.log(Math.min(2,-8,-24,6,45,1));
 //Math.random
 console.log((Math.random()*9000)+1000);//Math.random value deta 0 se 1 tak bich->0 to 999 otp generate
 */
+/*
+// Compund interest
+// formula = CI = A - P , A = P*(1 + r/100)^t
+let p = 1000 , r=5, t=3;
 
+console.log(p*Math.pow(1 + r/100 , t)-p)
+
+// find area of traingle by heron,s formula
+// Herons formula = s*(s-a)*(s-b)*(s-c)
+let a = 3;
+let b = 4;
+let c = 5;
+
+if(a+b <= c || a+c<=b || b+c<=a){
+    console.log("not possible");
+}
+else{
+    let s = (a+b+c)/2
+    console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+}
+*/
+// circumference of circle 2*(pi)*r
+let r = 9;
+console.log(2*Math.PI*r);
