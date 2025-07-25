@@ -2,7 +2,7 @@
 let arr = [[1,2,3,4],[9,6,4,3],[8,4,3,2],[5,4,3,2]];
 for(let i=0; i<arr.length; i++){
     for(let j=0; j<arr[i].length; j++){
-        process.stdout.write(`${arr[i][j]} `)
+        process.stdout.write(`${arr[i][j]}`)
     }
     console.log();
 }
