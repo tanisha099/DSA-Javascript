@@ -1,0 +1,42 @@
+let map = new Map()
+map.set("raj",5)
+map.set("Akash",8)
+map.set("Ankit",9)
+map.set("Amit",4)
+map.set("raj",9) // data update ho jayega jab data same ho 
+console.log(map);//{ 'raj' => 9, 'Akash' => 8, 'Ankit' => 9, 'Amit' => 4 }
+map.delete("Akash");
+console.log(map);//{ 'raj' => 9, 'Ankit' => 9, 'Amit' => 4 }
+console.log(map.has("Amit")); // data cheak krta hai 
+console.log(map.size);// length
+console.log(map.get("raj")); // id degs ->9
+//map.clear()
+console.log(map.values());// [Map Iterator] { 9, 9, 4 }
+console.log(map.keys());//->[Map Iterator] { 'raj', 'Ankit', 'Amit' }
+// iterate 
+for(let a of map.keys()){
+    console.log(a);
+    /*
+    raj
+Ankit
+Amit
+*/
+}
+// iterate values
+for(let a of map.values()){
+    console.log(a);
+    /*
+ 9
+9
+4
+*/
+}
+// iterate entity
+for(let a of map.entries()){
+    console.log(a);
+    /*
+  [ 'raj', 9 ]
+[ 'Ankit', 9 ]
+[ 'Amit', 4 ]
+*/
+}
