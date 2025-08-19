@@ -78,6 +78,7 @@ function sum(n){
 }
 console.log(sum(n));
 */
+/*
 // Reverse number
 function reverse(n,rev){
     if(n===0) return rev
@@ -86,3 +87,5 @@ function reverse(n,rev){
 }
 let n =891;
 console.log(reverse(n,0));
+*/
+
