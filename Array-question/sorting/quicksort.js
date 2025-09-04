@@ -39,13 +39,6 @@ return i;
    }
      console.log(arr);
   */
- // missing number 
- let arr = [0,1,4,4,5];
- for (let j = 0; j < nums.length; j++) {
-        if (nums[j] !== j) {
-            return j;
-        }
-    }
-    console.log(missing);
+
 
        
