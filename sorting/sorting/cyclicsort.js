@@ -19,7 +19,7 @@
     let i=0;
     while(i<nums.length){
         let correctIndex = nums[i];
-        if(nums[i]<=nums.length && nums[i]!=nums[correctIndex]){
+        if(nums[i]<nums.length && nums[i]!=nums[correctIndex]){
          let temp = nums[i];
          nums[i] = nums[correctIndex]
          nums[correctIndex] = temp;
